@@ -1,0 +1,11 @@
+[package]
+name = "Chuckel"
+version = "0.0.0"
+
+[addresses]
+Chuckel = "6b458b9e6567b61bb7e00b6e11bbf013bf93a5e7ae4c901424204b5550b12809"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
